@@ -1,1 +1,1 @@
-# landing-page
+A project to show that I know how to use flexbox! The images I recreated are in the references folder.
