@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     background-color: #1F2937;
     font-family: Roboto, sans-serif;
+    box-sizing: border-box;
 }
 
 .header {
@@ -12,13 +13,14 @@ body {
     background-color: #1F2937;
     color: white;
     font-weight: 800;
+    font-size: 24px;
 }
 
 a {
     text-decoration: none;
     color: white;
     font-weight: 200;
-    font-size: 12px;
+    font-size: 18px;
 
 }
 
@@ -29,4 +31,45 @@ ul {
     padding: 0;
     margin: 0;
     gap: 16px;
+}
+
+.container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 120px;
+}
+
+.awesome {
+    max-width: 450px;
+}
+
+.awesome-img {
+    height: 200px;
+    width: 450px;
+    margin-left: 30px;
+}
+
+h1.awesome {
+    font-size: 48px;
+    font-weight: 900;
+    padding: 0;
+    margin: 0;
+}
+
+p.awesome {
+    font-size: 18px; 
+    font-weight: 200;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button.awesome {
+    background-color: #3882F6;
+    color: white;
+    padding: 6px 20px;
+    border-radius: 6px;
+    border: none;
 }
