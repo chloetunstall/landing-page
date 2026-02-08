@@ -40,13 +40,14 @@ ul {
     align-items: center;
     color: white;
     margin-top: 120px;
+    margin-bottom: 120px;
 }
 
 .awesome {
     max-width: 450px;
 }
 
-.awesome-img {
+img.awesome {
     height: 200px;
     width: 450px;
     margin-left: 30px;
@@ -72,4 +73,45 @@ button.awesome {
     padding: 6px 20px;
     border-radius: 6px;
     border: none;
+}
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding-top: 30px;
+}
+
+h1.random {
+    font-size: 36px;
+    font-weight: 900;
+    padding-bottom: 30px;
+}
+
+img.random {
+    width: 175px;
+    height: 175px;
+    border: solid 2px #3882F6;
+    border-radius: 12px;
+}
+
+p.random {
+    font-size: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 175px;
+    text-align: center;
+}
+
+.small-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+    padding: 0;
+    margin: 0;
 }
