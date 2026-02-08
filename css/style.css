@@ -167,6 +167,7 @@ p.attribute {
     min-width: 1000px;
     margin: 50px 80px;
     gap: 0;
+    border-radius: 8px;
 }
 
 .cta-button {
@@ -189,4 +190,14 @@ button.cta {
     color: white;
     padding: 8px 24px;
     border-radius: 6px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    font-size: 18px;
 }
